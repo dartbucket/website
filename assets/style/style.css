@@ -187,8 +187,20 @@ section{
     .tech-card-container{
         flex-direction: column;
     }
-
     .video-card-container{
         flex-direction: column;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .tech-card-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .tech-card {
+        min-width: 30%;
     }
 }

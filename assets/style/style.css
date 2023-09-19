@@ -152,6 +152,41 @@ section{
     border-radius: 10px 10px 0px 0px;
 }
 
+.seminar-section {
+    padding: 30px;
+    display: block;
+}
+
+.seminar-section > h3 {
+    text-align: center;
+}
+
+.seminar-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.seminar-card {
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+    flex-direction: row;
+    border: 0.5px solid grey;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.seminar-card > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
 .ripple {
     position: absolute;
     border-radius: 50%;
@@ -192,6 +227,9 @@ section{
     .video-card-container{
         flex-direction: column;
     }
+    .seminar-card-container{
+        display: block;
+    }
 }
 
 /* Tablet View */
@@ -201,6 +239,10 @@ section{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .seminar-card-container{
+        display: block;
     }
 
     .tech-card {

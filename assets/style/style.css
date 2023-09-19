@@ -176,6 +176,8 @@ section{
     font-size: 20px;
 }
 
+/* Mobile View */
+
 @media only screen and (max-width: 600px) {
     .hero{
         padding: 20px;
@@ -192,6 +194,7 @@ section{
     }
 }
 
+/* Tablet View */
 
 @media (min-width: 600px) and (max-width: 768px) {
     .tech-card-container{
@@ -202,5 +205,12 @@ section{
 
     .tech-card {
         min-width: 30%;
+    }
+
+    .video-card-container{
+        flex-wrap: wrap;
+    }
+    .video-card{
+        min-width: 40%;
     }
 }

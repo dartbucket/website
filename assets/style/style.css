@@ -67,7 +67,6 @@ section{
     font-weight: 400;
     margin-left: 40px ;
 }
-
 .tech-stack{
     padding: 30px;
     display: block;
@@ -215,10 +214,22 @@ section{
 
 @media only screen and (max-width: 600px) {
     .hero{
-        padding: 20px;
         display: flex;
         flex-direction: column;
         align-content: center;
+        justify-content: center;
+    }
+    .hero-content{
+        margin: 0%;
+    }
+    
+    .social-links{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image {
+        margin-bottom: 20px;
     }
 
     .tech-card-container{
@@ -229,6 +240,10 @@ section{
     }
     .seminar-card-container{
         display: block;
+    }
+
+    .hero-content > h1{
+        text-align: center;
     }
 }
 
